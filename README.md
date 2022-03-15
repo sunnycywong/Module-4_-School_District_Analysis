@@ -4,20 +4,20 @@
 The purpose of this analysis is to resolve the discrepancy of the student grades at Thomas High School.
 
 ## (2) Results
-There has been evidence showing issues with the math andreading grades of Thomas High School ninth graders. In order to resolve thediscrepancy, we have taken the following steps. 
+There has been evidence showing issues with the math and reading grades of Thomas High School ninth graders. In order to resolve the discrepancy, we have taken the following steps. 
 
 To avoid the grades from Thomas High School ninth graderswere being counted, we first replaced all their grades to “NaN”. 
 
-Subsequently, we created new dataframes that excluded the ThomasHigh School ninth graders’ grades and redid the calculation. The total counts and passing percentages were needed to beredone. With the removal of the ninth graders, all these numbers would be affected. This would also affect the results when looking at the school size, district,or spending ranges levels. 
+Subsequently, we created new dataframes that excluded the Thomas High School ninth graders’ grades and redid the calculation. The total counts and passing percentages were needed to be redone. With the removal of the ninth graders, all these numbers would be affected. This would also affect the results when looking at the school size, district,or spending ranges levels. 
 
 1. <ins>The district summary DataFrame<ins> 
 - *The replacement of “NaN” on Thomas High School ninth graders,would cause their grades cannot be counted, as the entries have been updated toa non- integer format.*  
 
 2. <ins>The school summary DataFrame<ins> 
-- *Similar to the above, the replacement of “NaN” on ThomasHigh School ninth graders, would cause their grades cannot be counted, as theentries have been updated to a non- integer format.*  
+- *Similar to the above, the replacement of “NaN” on ThomasHigh School ninth graders, would cause their grades cannot be counted, as the entries have been updated to a non- integer format.*  
 
 3. <ins>The top 5 performing schools, based on the overall passingrate<ins>
-- *The exclusion of Thomas High School ninth graders, wouldaffect the overall student count at Thomas High School, which would directlyaffect its overall passing rate result and this would affect the ranking ofThomas High School on the list.* 
+- *The exclusion of Thomas High School ninth graders, would affect the overall student count at Thomas High School, which would directly affect its overall passing rate result and this would affect the ranking of Thomas High School on the list.* 
 
 4. <ins>The bottom 5 performing schools, based on the overall passing rate<ins>
  - *Same as the above, the exclusion of Thomas High School ninth graders, would affect the overall student count at Thomas High School, which would directly affect its overall passing rate result and this would affect the ranking of Thomas High School on the list.*
