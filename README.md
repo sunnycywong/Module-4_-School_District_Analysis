@@ -1,10 +1,12 @@
 # Module-4_-School_District_Analysis
 
 ## (1) Overview of the school district analysis
-
+The purpose of this analysis is to resolve the discrepancy of the student grades at Thomas High School.
 
 ## (2) Results
-There has been evidence showing issues with the math andreading grades of Thomas High School ninth graders. In order to resolve thediscrepancy, we have taken the following steps.  To avoid the grades from Thomas High School ninth graderswere being counted, we first replaced all their grades to “NaN”. 
+There has been evidence showing issues with the math andreading grades of Thomas High School ninth graders. In order to resolve thediscrepancy, we have taken the following steps. 
+
+To avoid the grades from Thomas High School ninth graderswere being counted, we first replaced all their grades to “NaN”. 
 
 Subsequently, we created new dataframes that excluded the ThomasHigh School ninth graders’ grades and redid the calculation. The total counts and passing percentages were needed to beredone. With the removal of the ninth graders, all these numbers would be affected. This would also affect the results when looking at the school size, district,or spending ranges levels. 
 
